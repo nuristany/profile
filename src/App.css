@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  padding-top: 120px;
+  font-family: "poppins", sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.humbergerTwo {
+  height: 120px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: grey;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.humbergerTwo h3 {
+  margin-left: 20px;
+  
+}
+.humbergerTwo ul {
+  display: flex;
+  gap: 10px;
+  margin-right: 20px;
+  list-style: none;
+}
+.humbergerTwo ul a {
+  text-decoration: none;
+  font-size: 19px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.menue {
+  display: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.humbergerTwo .menue span {
+  height: 0.4rem;
+  width: 100%;
+  background-color: white;
+  border-radius: 0.2rem;
+}
+
+@media screen and (max-width: 780px) {
+  .humbergerTwo .menue {
+    display: flex;
+    
   }
-  to {
-    transform: rotate(360deg);
+
+  .humbergerTwo {
+    flex-direction: column;
+    align-items: start;
+  }
+  .humbergerTwo h3 {
+    padding-top: 20px;
+    padding-right: 20px;
+    
+  }
+
+
+  .humbergerTwo ul a {
+    font-size: 18px;
+    gap: 2px;
+    
+  }
+  .humbergerTwo ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0.25rem;
+  }
+
+  .humbergerTwo ul.nav-links.open {
+    display: flex; /* Show menu items when menu is open */
+  }
+  .humbergerTwo ul a {
+    width: 100%;
+    text-align: center;
   }
 }
