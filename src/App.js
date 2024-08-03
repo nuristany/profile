@@ -6,6 +6,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Project from "./components/Project";
 import "./styles.css"
+import "./media.css"
 
 
 function App() {
