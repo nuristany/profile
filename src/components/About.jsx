@@ -26,7 +26,7 @@ const About = () => {
               <div className="education">
                 <h3>Education</h3>
                 <p>B.Sc. Bachelor Degree</p>
-                <p>M.Sc. Master Degree</p>
+                
               </div>
             </div>
             <div className="about-text-container">
@@ -75,7 +75,7 @@ const About = () => {
                   </h3>
                 </div>
                 <div>
-                  <h5>CSS</h5>
+                  <h5>JAVASCRIPT</h5>
                   <p>Experienced</p>
                 </div>
               </div>
@@ -86,7 +86,7 @@ const About = () => {
                   </h3>
                 </div>
                 <div>
-                  <h5>JAVASCRIPT</h5>
+                  <h5>CSS</h5>
                   <p>Intermediate</p>
                 </div>
               </div>

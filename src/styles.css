@@ -162,14 +162,38 @@ body {
 
 .experience-education-container {
   display: flex;
-  justify-content: center; /* Centers the items horizontally */
-  align-items: center; /* Centers the items vertically */
+  justify-content: space-between;
+  align-items: stretch; /* Ensure equal height */
   text-align: center;
+  gap: 20px;
+  
 }
 
-.experience,
+
+.experience, .education {
+  flex: 1; /* Ensures equal width for both */
+  border: 2px solid rgb(181, 181, 181);
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience-education-container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* .experience,
 .education {
-  width: 40%;
+  width: 60%;
+  height: 20%;
   box-sizing: border-box;
   border: 1px solid rgb(181, 181, 181);
   display: flex;
@@ -180,7 +204,7 @@ body {
   padding: 2rem;
   border-radius: 30px;
   margin: 10px;
-}
+} */
 
 .about-img-container img {
   width: 300px;
@@ -244,9 +268,8 @@ body {
 
 .a {
   display: grid;
-  justify-content: space-between;
   grid-template-columns: repeat(2, 1fr);
-  gap: 5px;
+  gap: 7px;
 }
 
 .frontend-detail div {
