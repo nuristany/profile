@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .menue {
     display: flex;
     margin-right: 10px;
@@ -36,31 +36,28 @@
     margin-top: 13px;
   }
 
-  .profile-container{
+  .profile-container {
     flex-direction: column;
   }
-
 
   /*  small screen for about page */
 
-
-  .about-container{
+  .about-container {
     margin-top: 7rem;
   }
 
-  .row{
+  .row {
     flex-direction: column;
   }
 
-  .experience{
+  .experience {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
     flex-direction: column;
-    
   }
-  .education{
+  .education {
     flex-direction: column;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -68,17 +65,16 @@
     padding-right: 15px;
   }
 
-
-  .education h3{
+  .education h3 {
     font-size: 10px;
   }
-  .education p{
+  .education p {
     font-size: 10px;
   }
-  .experience h3{
+  .experience h3 {
     font-size: 10px;
   }
-  .experience p{
+  .experience p {
     font-size: 10px;
   }
 
@@ -87,16 +83,25 @@
     padding: 10px;
     text-align: justify;
     line-height: 1.4;
-    color: rgb(181,181,181);
+    color: rgb(181, 181, 181);
+  }
+
+  .experience-detail-container {
+    gap: 5px;
+  }
+
+  .frontend-experience {
+    width: 50%;
+  }
+
+  .frontend-experience h3 {
+    font-size: 11px;
+  }
+
+  .frontend-detail h5 {
+    font-size: 7px;
+  }
+  .frontend-detail p {
+    font-size: 6px;
   }
 }
-
-
-
-
-
-
-
-
-
-

@@ -160,36 +160,26 @@ body {
   display: flex;
 }
 
-.experince-education-container {
+.experience-education-container {
   display: flex;
+  justify-content: center; /* Centers the items horizontally */
+  align-items: center; /* Centers the items vertically */
+  text-align: center;
 }
 
-.experience {
-  width: 100%;
-  border: 2px solid rgb(181, 181, 181);
-  padding-right: 4rem;
-  padding-left: 4rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border-radius: 30px;
-  border-color: rgb(181, 181, 181);
-  margin-right: 15px;
-  display: block;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
+.experience,
 .education {
-  display: block;
-  width: 100%;
+  width: 40%;
+  box-sizing: border-box;
+  border: 1px solid rgb(181, 181, 181);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   border: 2px solid rgb(181, 181, 181);
-  padding-right: 4rem;
-  padding-left: 4rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 2rem;
   border-radius: 30px;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin: 10px;
 }
 
 .about-img-container img {
@@ -205,6 +195,8 @@ body {
 .about-container-title-texts p {
   font-size: 15px;
   color: rgb(181, 181, 181);
+  text-align: center;
+  align-items: center;
 }
 .about-container-title-texts h1 {
   font-size: 50px;
@@ -219,5 +211,47 @@ body {
   padding: 10px;
   text-align: justify;
   line-height: 1.4;
-  color: rgb(181,181,181);
+  color: rgb(181, 181, 181);
+}
+.experience-detail-container {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.experience-title {
+  text-align: center;
+}
+
+.frontend-experience {
+  border: 1px solid rgb(181, 181, 181);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  padding-top: 1rem;
+  border-radius: 10px;
+}
+
+.frontend-detail {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+  padding: 1rem;
+}
+
+.a {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+
+.frontend-detail div {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import zhakya from "../images/Zhakya.png";
-
+import { FaCircleCheck } from "react-icons/fa6";
 const About = () => {
   return (
     <div className="about-container">
@@ -17,7 +17,7 @@ const About = () => {
         </div>
         <div className="right">
           <div className="details">
-            <div className="experince-education-container">
+            <div className="experience-education-container">
               <div className="experience">
                 <h3>Experience</h3>
                 <p>2+ Years</p>
@@ -42,6 +42,114 @@ const About = () => {
                 recently with desktop publishing software like Aldus PageMaker
                 including versions of Lorem Ipsum.
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="experience-container">
+        <div className="experience-title">
+          <p>Explore My</p>
+          <h1>Experience</h1>
+        </div>
+
+        <div className="experience-detail-container">
+          <div className="frontend-experience">
+            <h3>Frontend Development</h3>
+            <div className="a">
+              <div className="frontend-detail">
+                <div>
+                  <h3>
+                    <FaCircleCheck />
+                  </h3>
+                </div>
+                <div>
+                  <h5>HTML</h5>
+                  <p>Experienced</p>
+                </div>
+              </div>
+              <div className="frontend-detail">
+                <div>
+                  <h3>
+                    <FaCircleCheck />
+                  </h3>
+                </div>
+                <div>
+                  <h5>CSS</h5>
+                  <p>Experienced</p>
+                </div>
+              </div>
+              <div className="frontend-detail">
+                <div>
+                  <h3>
+                    <FaCircleCheck />
+                  </h3>
+                </div>
+                <div>
+                  <h5>JAVASCRIPT</h5>
+                  <p>Intermediate</p>
+                </div>
+              </div>
+              <div className="frontend-detail">
+                <div>
+                  <h3>
+                    <FaCircleCheck />
+                  </h3>
+                </div>
+                <div>
+                  <h5>REACT</h5>
+                  <p>Experienced</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="frontend-experience">
+            <h3>Backend Development</h3>
+            <div className="a">
+              <div className="frontend-detail">
+                <div>
+                  <h3>
+                    <FaCircleCheck />
+                  </h3>
+                </div>
+                <div>
+                  <h5>Python</h5>
+                  <p>Intermediate</p>
+                </div>
+              </div>
+              <div className="frontend-detail">
+                <div>
+                  <h3>
+                    <FaCircleCheck />
+                  </h3>
+                </div>
+                <div>
+                  <h5>Django</h5>
+                  <p>Intermediate</p>
+                </div>
+              </div>
+              <div className="frontend-detail">
+                <div>
+                  <h3>
+                    <FaCircleCheck />
+                  </h3>
+                </div>
+                <div>
+                  <h5>JAVASCRIPT</h5>
+                  <p>Intermediate</p>
+                </div>
+              </div>
+              <div className="frontend-detail">
+                <div>
+                  <h3>
+                    <FaCircleCheck />
+                  </h3>
+                </div>
+                <div>
+                  <h5>GIT</h5>
+                  <p>Intermediate</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
