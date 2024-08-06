@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
   .menue {
     display: flex;
     margin-right: 10px;
@@ -91,7 +91,7 @@
   }
 
   .frontend-experience {
-    width: 50%;
+    width: 10%;
   }
 
   .frontend-experience h3 {

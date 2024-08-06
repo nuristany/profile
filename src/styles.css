@@ -166,11 +166,10 @@ body {
   align-items: stretch; /* Ensure equal height */
   text-align: center;
   gap: 20px;
-  
 }
 
-
-.experience, .education {
+.experience,
+.education {
   flex: 1; /* Ensures equal width for both */
   border: 2px solid rgb(181, 181, 181);
   padding: 20px;
@@ -190,22 +189,6 @@ body {
   width: 100%;
 }
 
-/* .experience,
-.education {
-  width: 60%;
-  height: 20%;
-  box-sizing: border-box;
-  border: 1px solid rgb(181, 181, 181);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid rgb(181, 181, 181);
-  padding: 2rem;
-  border-radius: 30px;
-  margin: 10px;
-} */
-
 .about-img-container img {
   width: 300px;
   padding: 20px;
@@ -214,6 +197,10 @@ body {
 
 .about-container-title-texts {
   text-align: center;
+}
+.about-container-title-texts,
+h1 {
+  color: rgb(181, 181, 181);
 }
 
 .about-container-title-texts p {
@@ -241,7 +228,16 @@ body {
   margin-top: 5rem;
   display: flex;
   justify-content: center;
+  text-align: center;
   gap: 10px;
+}
+
+.experience-detail-container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }
 
 .experience-title {
@@ -250,13 +246,16 @@ body {
 
 .frontend-experience {
   border: 1px solid rgb(181, 181, 181);
+  flex: 1; /* Ensures equal width for both */
+  border: 2px solid rgb(181, 181, 181);
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 40%;
-  padding-top: 1rem;
-  border-radius: 10px;
+  width: 50%;
 }
 
 .frontend-detail {
@@ -264,6 +263,17 @@ body {
   justify-content: space-evenly;
   gap: 5px;
   padding: 1rem;
+}
+
+.experience-title h1,
+p {
+  color: rgb(175, 175, 175);
+}
+
+.frontend-detail p,
+h3,
+h5 {
+  color: rgb(175, 175, 175);
 }
 
 .a {
@@ -276,5 +286,62 @@ body {
   display: flex;
   flex-direction: column;
   text-align: justify;
+}
+
+/* Project page style */
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  margin-top: 10rem;
+}
+.project-detail {
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgb(181, 181, 181);
+  border-radius: 20px;
+  height: 40vh;
+}
+.project-detail img {
+  width: 300px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.project-title{
+  margin-top: 10px;
+  font-size: 10px;
   
+}
+
+.project-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+.project-button button{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 7rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  background-color: white;
+  font-weight: bold;
+  font-size: 10px;
+
 }
