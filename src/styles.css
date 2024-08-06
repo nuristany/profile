@@ -291,14 +291,22 @@ h5 {
 /* Project page style */
 
 .project-container {
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.project-content-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
   width: 100%;
   margin-top: 10rem;
 }
+
 .project-detail {
+  position: relative;
   padding-top: 15px;
   padding-right: 10px;
   padding-left: 10px;
@@ -307,6 +315,7 @@ h5 {
   align-items: center;
   border: 2px solid rgb(181, 181, 181);
   border-radius: 20px;
+  width: 50;
   height: 40vh;
 }
 .project-detail img {
@@ -315,21 +324,21 @@ h5 {
   border-radius: 20px;
 }
 
-.project-title{
+.project-title {
   margin-top: 10px;
   font-size: 10px;
-  
 }
 
-.project-button{
+.project-button {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   gap: 10px;
   margin-top: 40px;
+  padding-bottom: 1rem;
 }
-.project-button button{
+.project-button button {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -343,5 +352,4 @@ h5 {
   background-color: white;
   font-weight: bold;
   font-size: 10px;
-
 }
