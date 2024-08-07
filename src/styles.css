@@ -377,6 +377,8 @@ h5 {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-top: 8rem;
+ 
 }
 
 .contact-input-container{
@@ -443,3 +445,4 @@ h5 {
   color: black;
   border: 2px solid black;
 }
+
