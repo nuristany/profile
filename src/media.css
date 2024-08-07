@@ -6,8 +6,10 @@
 
   .nav-links li {
     text-align: center;
-    padding: 5px 0;
-    font-size: 18px;
+    padding: 3px 0;
+    font-size: 22px;
+    font-weight: 200;
+    color: black;
   }
 
   .nav-links {
