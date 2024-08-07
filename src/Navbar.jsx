@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className="navbar-desktop">
-        <div>
+        <div className="nav-title-container">
           <h3 className="nav-title">Zhakya Nuristany</h3>
         </div>
 

@@ -5,6 +5,7 @@ import {
   faFacebook,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
+import { FaGithub } from "react-icons/fa";
 
 import zhakya from "../images/Zhakya.png";
 import resume from "../assets/zhakya.pdf";
@@ -48,6 +49,13 @@ const Home = () => {
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faFacebook} />
+          </a>
+          <a
+            href="https://github.com/nuristany"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub />
           </a>
         </div>
       </div>

@@ -6,7 +6,7 @@ const Project = () => {
     <div className="project-container">
       <div className="project-title-container">
         <p>Browse My Recent Projects</p>
-        <h1 style={{color:"black", marginTop:"5px"}}>Projects</h1>
+        <h1 style={{ color: "black", marginTop: "5px" }}>Projects</h1>
       </div>
       <div className="project-content-container">
         <div className="project-detail">
