@@ -39,7 +39,7 @@ const Contact = () => {
       <div className="contact-title">
         <p>Connect with me</p>
         <h1 style={{ color: "black", marginTop: "1rem" }}>Get in touch with</h1>
-        <p>I`d love to hear from you! if you have anyquestion, comment or feedback please use the form <br/>below</p>
+        <p>I`d love to hear from you! if you have any question, comment or feedback please use the form <br/>below</p>
       </div>
       <form onSubmit={handleSubmit}>
         <div className="contact-input-container">
