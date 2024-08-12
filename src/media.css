@@ -125,6 +125,8 @@
 
   .project-content-container{
     margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
   }
   
   .project-title-container{

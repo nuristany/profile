@@ -1,6 +1,7 @@
 import limo from "../images/Screenshot 2024-08-05 162053.png";
 import rating from "../images/Screenshot 2024-08-05 170015.png";
 import movileflix from "../images/Screenshot 2024-08-08 133605.png";
+import ibuy from "../images/Screenshot 2024-08-12 105743.png";
 
 const Project = () => {
   return (
@@ -69,6 +70,28 @@ const Project = () => {
               style={{ textDecoration: "none" }}
               href="https://mylimoservices-production.up.railway.app/"
               rel="noopener no referrer"
+            >
+              <button>Live Demo</button>
+            </a>
+          </div>
+        </div>
+
+        <div className="project-detail">
+          <img src={ibuy} alt="" />
+          <div className="project-title">
+            <h1>Project Four</h1>
+          </div>
+          <div className="project-button">
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://github.com/nuristany/usestorefront"
+            >
+              <button>GitHub</button>
+            </a>
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://ibuy-front.netlify.app/"
+              rel="noreferrer"
             >
               <button>Live Demo</button>
             </a>
